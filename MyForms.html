@@ -1,0 +1,139 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+    </head>
+    <body style="background: #0000FF;">
+        <Form >
+            <fieldset style="width: 875px;">
+                <legend style="color:white;border-style: dotted;background: #00FF00;">Опрос студентов</legend>
+                <table>
+                    <tr>
+                        <td>
+                            <fieldset style="width: 350px ;">
+                                <legend style="color:white">Анкетные данные</legend>
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <a style="color:white">
+                                                Введите ФИО:
+                                            </a>
+                                        </td>
+                                        <td>
+                                            <input type="search">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a style="color:white">
+                                                Введите пароль:
+                                            </a>
+                                        </td>
+                                        <td>
+                                            <input type="password">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a style="color:white">
+                                                Введите EMail:
+                                            </a>
+                                        </td>
+                                        <td>
+                                            <input type="search">
+                                        </td>
+                                    </tr>
+                                </table>
+                            </fieldset>
+                            
+                        </td>
+                        <td>
+                            <fieldset>
+                                <legend style="color:white">Специализация</legend>
+                                <p style="color: white; background-color:#850085;border-style: dotted; border-width: 1px;">Выберите свою специальность:</p>
+                                <a style="color:white"><input type="radio">Программирование в компьютерных системах</a><br>
+                                <a style="color:white"><input type="radio">Компьютерные сети</a>
+                            </fieldset>
+                        </td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td>
+                            <fieldset style="width: 350px ;">
+                                <legend style="color:white">Языки программирования</legend>
+                                <p style="color: white; background-color:#850085;border-style: dotted; border-width: 1px;">Выберите языки программирования, которые вы бы хотели изучать:</p>
+                                <table>
+                                    <td>
+                                         <input type="checkbox">
+                                    </td>
+                                    <td>
+                                        <a style="color:white">
+                                            PHP
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <input type="checkbox">
+                                    </td>
+                                    <td>
+                                        <a style="color:white">
+                                            JavaScript
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <input type="checkbox">
+                                    </td>
+                                    <td>
+                                        <a style="color:white">
+                                            SQL
+                                        </a>
+                                    </td>
+                                </table>
+                                <p style="color: white; background-color:#850085;border-style: dotted; border-width: 1px;">Укажите уровень освоения языков:</p>
+                                <select>
+                                    <option style="background: #e91cdf;">Начальный</option>
+                                    <optgroup label="Базовый" style="background: #1c8de9;"></optgroup>
+                                    <option style="background: rgb(0, 0, 255,0.25);">25%</option>
+                                    <option style="background: rgb(0, 0, 255,0.50);">50%</option>
+                                    <optgroup label="Профессиональный" style="background: #1ce972;"></optgroup>
+                                    <option style="background: rgba(0, 0, 255,0.75);">75%</option>
+                                    <option style="background: rgba(0, 0, 255, 1);">100%</option>
+                                </select>
+                            </fieldset>
+                        </td>
+                        <td>
+                            <fieldset style="width: 450px ;">
+                            <legend style="color:white">Уровень освоения</legend>
+                                <p style="color: white; background-color:#850085;border-style: dotted; border-width: 1px;">Выберите освоенные функции языков (множественный выбор)</p>
+                                <select size="6" multiple style="width:450px">
+                                    <option>Типы данных</option>
+                                    <option>Ветвление</option>
+                                    <option>Циклы</option>
+                                    <option>Массивы</option>
+                                    <option>Строки</option>
+                                    <option>Файлы</option>
+                                </select>
+                            </fieldset>
+                        </td>
+                    </tr>
+                    
+                </table>
+                <fieldset>
+                    <legend style="color:white">Обратная связь</legend>
+                    <p style="color: white; background-color:#850085;border-style: dotted; border-width: 1px;">Введите свои пожелания по изучению языков программирования:</p>
+                    <textarea style="width:875px; height:100px"></textarea>
+                    <p></p>
+                    <a style="color:white" >Загрузите фотографию:<input type="file" style="height:30px;color: black;background: #FFFFFF;"></a> 				    
+                </fieldset>
+                <table style="margin-left: 220;">
+                    <td style="width: 400" >
+                        <input type="reset"  value="Сбросить" >
+                    </td>
+                    <td>
+                        <input type="submit" value="Отправить" >
+                    </td>
+                </table>
+            </fieldset>
+        </Form>
+    </body>
+</html>
