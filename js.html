@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>Задание №1</h1>
+        <form>
+            <img src="v2.png"><br>
+            <input type="text" id="z1">
+            <input type="button" value="Ответ" onclick="func1()"><br>
+            <p id="z1otvet"></p>
+        </form>
+        <h1>Задание №2</h1>
+        <form>
+            <img src="2.png"><br>
+            <p>X: </p><input type="text" id="z2x"><br>
+            <p>Y: </p><input type="text" id="z2y"><br>
+            <input type="button" value="Ответ" onclick="func2()"><br>
+            <p id="z2otvet"></p>
+        </form>
+        <h1>Задание №3</h1>
+        <form>
+            <p>Кол-во рублей: </p><input type="text" id="z3"><br>
+            <input type="button" value="Ответ" onclick="func3()"><br>
+            <p id="z3otvet"></p>
+        </form>
+
+
+
+        <form>
+            <h2 style="float: right;color: red;">Вопрос 1</h2><br><br>
+            <p><b>Вопрос.</b>Какой из тэг HTML служит для создания таблицы?</p>
+            <p style="margin-left: 50%;"><input type="radio" id = "z4v1"> &lt;table&gt;</p>
+            <p style="margin-left: 50%;"><input type="radio" > &lt;hr&gt;</p>
+            <p style="margin-left: 50%;"><input type="radio" > &lt;line&gt;</p>
+            <p style="margin-left: 50%;"><input type="radio" > &lt;row&gt;</p>
+
+
+            <h2 style="float: right;color: red;">Вопрос 2</h2><br><br>
+            <p><b>Вопрос.</b>Какой параметр служит для установки цвета текста на Web-странице?</p>
+            <p style="margin-left: 50%;"><input type="checkbox" id = "z4v2v1"> Color в тэге &lt;body&gt;</p>
+            <p style="margin-left: 50%;"><input type="checkbox" id = "z4v2v2"> Color в тэге &lt;font&gt;</p>
+            <p style="margin-left: 50%;"><input type="checkbox" > Text в тэге &lt;body&gt;</p>
+            <p style="margin-left: 50%;"><input type="checkbox" > Text в тэге &lt;font&gt;</p>
+
+
+            <h2 style="float: right;color: red;">Вопрос 3</h2><br><br>
+            <p><b>Вопрос.</b>Какой тэг HTML служит для связи файла CSS-стилей и Web-страницы?</p><br>
+            <select style="float: right;margin-right: 50;" id="z4v3">
+                <option>&lt;url&gt;</option>
+                <option>&lt;link&gt;</option>
+                <option>&lt;src&gt;</option>
+                <option>&lt;head&gt;</option>
+            </select> <br><br>
+
+
+            <h2 style="float: right;color: red;">Вопрос 4</h2><br><br>
+            <p><b>Вопрос.</b>Какой параметр не предназначен для установки цвета текста на Web-странице?</p><br>
+            <select multiple style="float: right;margin-right:50;height: 40;overflow-y: auto;width: 150;border: 0;" id="z4v4">
+                <option>color в тэге &lt;font&gt;</option>
+                <option>text в тэге &lt;body&gt;</option>
+            </select>
+            <select multiple style="position: absolute;top: 1560px;right: 58;height: 40;overflow-y: auto;width: 150;border: 0;" id="z4v4v1">
+                <option>color в тэге &lt;body&gt;</option>
+                <option>text в тэге &lt;font&gt;</option>
+            </select><br><br><br><br>
+
+
+            <h2 style="float: right;color: red;">Вопрос 5</h2><br><br>
+            <p><b>Вопрос.</b>Какой тэг HTML служит для создания формы?</p><br>
+            <input type="text" id="z4v5"><br><br>
+
+
+            <input type="button" value="Готово" onclick="func4()">
+        </form>
+
+        <p id="asd"></p>
+        <script src="js.js"></script>
+    </body>
+</html>
