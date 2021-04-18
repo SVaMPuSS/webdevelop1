@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        td {
+            border: 1px solid magenta; 
+            width: 25px; 
+            text-align: center;
+        }
+        tr {
+            height: 25px;
+        }
+    </style>
+</head>
+<body>
+    <table style="border: 1px solid magenta;">
+        <tr> <td>Число</td> <td>Квадрат</td> </tr>
+        <tr> <td id="n0"> </td> <td id="no0"> </td> </tr>
+        <tr> <td id="n2"> </td> <td id="no2"> </td> </tr>
+        <tr> <td id="n4"> </td> <td id="no4"> </td> </tr>
+        <tr> <td id="n6"> </td> <td id="no6"> </td> </tr>
+        <tr> <td id="n8"> </td> <td id="no8"> </td> </tr>
+    </table>
+    <input type="button" onclick="func1()" value="button">
+
+    <table style="border: 1px solid magenta;" >
+        <tr> <td id="z1"> </td> <td id="zo1"> </td> </tr>
+        <tr> <td id="z2"> </td> <td id="zo2"> </td> </tr>
+        <tr> <td id="z3"> </td> <td id="zo3"> </td> </tr>
+        <tr> <td id="z4"> </td> <td id="zo4"> </td> </tr>
+        <tr> <td id="z5"> </td> <td id="zo5"> </td> </tr>
+        <tr> <td id="z6"> </td> <td id="zo6"> </td> </tr>
+        <tr> <td id="z7"> </td> <td id="zo7"> </td> </tr>
+        <tr> <td id="z8"> </td> <td id="zo8"> </td> </tr>
+        <tr> <td id="z9"> </td> <td id="zo9"> </td> </tr>
+    </table>
+    <input type="button" onclick="func2()" value="button">
+    <table id = "t1">
+        
+    </table>
+    <p>row</p>
+    <input type="number" id="row"><br>
+    <p>col</p>
+    <input type="number" id="col"><br>
+    <input type="button" onclick="func4()" value="button"><br>
+    <script src="js.js"></script>
+</body>
+</html>
